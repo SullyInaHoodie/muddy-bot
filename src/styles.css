@@ -1,0 +1,191 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #121212;
+  overflow: hidden; /* Prevent any scrolling */
+}
+
+#fullpage {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+}
+
+.section {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  scroll-snap-align: start;
+  padding: 40px;
+}
+
+.icon {
+  font-size: 4rem;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 1.5rem;
+}
+
+/* Custom background colors for each section */
+#section1 {
+  background: url('https://i.pinimg.com/originals/10/be/fd/10befd3b64e1aafb192131771f236511.gif') no-repeat center center;
+  background-size: cover;
+  color: white;
+}
+
+#section2 {
+  background-color: #1E90FF; /* Dodger Blue */
+  color: white;
+}
+
+#section3 {
+  background-color: #32CD32; /* Lime Green */
+  color: white;
+}
+
+#section4 {
+  background-color: #FF4500; /* Orange Red */
+  color: white;
+}
+
+#section5 {
+  background-color: #FFD700; /* Gold */
+  color: black;
+}
+
+/* Navigation styles */
+.navbar {
+  position: fixed;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 10px 20px;
+  z-index: 1000;
+  border-radius: 5px;
+}
+
+.navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 20px;
+}
+
+.navbar ul li {
+  display: inline;
+}
+
+.navbar ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+.navbar ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Button styles for donation link */
+.donation-button {
+  background-color: #FFDD00;
+  color: #000;
+  border: none;
+  padding: 15px 25px;
+  font-size: 1.5rem;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.donation-button:hover {
+  background-color: #FFC700;
+  color: #000;
+}
+
+/* Mobile styles */
+@media (max-width: 768px) {
+  .icon {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+
+  h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+  }
+
+  p {
+    font-size: 1.2rem;
+    padding: 0 20px;
+  }
+
+  .navbar ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .navbar ul li a {
+    font-size: 1rem;
+  }
+
+  .donation-button {
+    font-size: 1.2rem;
+    padding: 10px 20px;
+  }
+}
+
+/* Additional styles to prevent horizontal scrolling */
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+.menu-toggle {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  font-size: 2rem;
+  color: white;
+  cursor: pointer;
+  z-index: 1001;
+}
+
+.navbar.active {
+  display: block;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    display: none;
+  }
+
+  .navbar.active {
+    display: block;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    padding: 20px;
+    text-align: center;
+  }
+
+  .navbar ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
