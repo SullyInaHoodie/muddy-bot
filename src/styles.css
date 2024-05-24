@@ -11,6 +11,7 @@ body {
   height: 100vh;
   scroll-snap-type: y mandatory;
   overflow-y: scroll;
+  overflow-x: hidden;
   scroll-behavior: smooth;
 }
 
@@ -22,7 +23,6 @@ body {
   align-items: center;
   text-align: center;
   scroll-snap-align: start;
-  padding: 40px;
 }
 
 .icon {
@@ -116,6 +116,10 @@ p {
   color: #000;
 }
 
+.menu-toggle{
+  display: none;
+}
+
 /* Mobile styles */
 @media (max-width: 768px) {
   .icon {
@@ -155,6 +159,7 @@ html, body {
 }
 
 .menu-toggle {
+  display: block;
   position: fixed;
   top: 20px;
   left: 20px;
@@ -175,10 +180,10 @@ html, body {
 
   .navbar.active {
     display: block;
-    position: absolute;
+    position: sticky;
     top: 60px;
-    left: 0;
-    width: 100%;
+    left: 140px;
+    width: 40%;
     background-color: rgba(0, 0, 0, 0.9);
     padding: 20px;
     text-align: center;
