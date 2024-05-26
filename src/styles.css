@@ -24,6 +24,16 @@ body {
   text-align: center;
   scroll-snap-align: start;
 }
+.highlight-command {
+  border: 2px solid #ffee00; /* Red border */
+  background-color: #000000; /* Light grey background */
+  padding: 2px 6px; /* Padding around the text */
+  border-radius: 4px; /* Rounded corners */
+  font-weight: bold; /* Make text bold */
+  color: #f8f8f8; /* Dark text color */
+  font-size: large;
+}
+
 
 .icon {
   font-size: 4rem;
@@ -41,9 +51,9 @@ p {
 
 /* Custom background colors for each section */
 #section1 {
-  background: url('https://i.makeagif.com/media/9-10-2022/KGxorY.gif') no-repeat center center;
+  background: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/dfcf7c57-21f2-42e9-8b13-8a6588b0eb2b/df2nq1d-85d3de0a-8ee0-4a35-b75a-30d93687665b.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2RmY2Y3YzU3LTIxZjItNDJlOS04YjEzLThhNjU4OGIwZWIyYlwvZGYybnExZC04NWQzZGUwYS04ZWUwLTRhMzUtYjc1YS0zMGQ5MzY4NzY2NWIucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.UOectm1i7c5TljguuuUGAee2sjZb-zuRj6s8y2Nm7Ys') no-repeat center center;
   background-size: cover;
-  color: white;
+  color: rgb(10, 0, 0);
 }
 
 #section2 {

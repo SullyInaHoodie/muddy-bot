@@ -56,12 +56,13 @@ const App = () => {
         </ul>
       </nav>
       <div className="section" id="section1">
-        <div className="content">
-          <FontAwesomeIcon icon={faShoppingCart} className="icon" />
-          <h2>Welcome to the Valorant Shop Bot</h2>
-          <p>Instantly view your in-game Valorant item shop on Discord! Type <code>!shop</code> to get real-time updates on the latest skins and gear available for purchase.</p>
-        </div>
-      </div>
+    <div className="content">
+        <FontAwesomeIcon icon={faShoppingCart} className="icon" />
+        <h2>Welcome to the Valorant Shop Bot</h2>
+        <p>Instantly view your in-game Valorant item shop on Discord! Type <span className="highlight-command">!shop</span> to get real-time updates on the latest skins and gear available for purchase.</p>
+    </div>
+</div>
+
       <div className="section" id="section2">
         <div className="content">
           <FontAwesomeIcon icon={faCogs} className="icon" />
