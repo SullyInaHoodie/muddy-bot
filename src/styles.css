@@ -41,29 +41,29 @@ p {
 
 /* Custom background colors for each section */
 #section1 {
-  background: url('https://i.pinimg.com/originals/10/be/fd/10befd3b64e1aafb192131771f236511.gif') no-repeat center center;
+  background: url('https://i.makeagif.com/media/9-10-2022/KGxorY.gif') no-repeat center center;
   background-size: cover;
   color: white;
 }
 
 #section2 {
-  background-color: #1E90FF; /* Dodger Blue */
+  background-color: #38b3dd; /* Dodger Blue */
   color: white;
 }
 
 #section3 {
-  background-color: #32CD32; /* Lime Green */
+  background-color: #263ca1; /* Lime Green */
   color: white;
 }
 
 #section4 {
-  background-color: #FF4500; /* Orange Red */
+  background-color: #10255c; /* Orange Red */
   color: white;
 }
 
 #section5 {
-  background-color: #FFD700; /* Gold */
-  color: black;
+  background-color: #131a2c; /* Gold */
+  color: rgb(255, 243, 243);
 }
 
 /* Navigation styles */
@@ -102,7 +102,7 @@ p {
 
 /* Button styles for donation link */
 .donation-button {
-  background-color: #FFDD00;
+  background-color: #ffffff;
   color: #000;
   border: none;
   padding: 15px 25px;
