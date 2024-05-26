@@ -57,22 +57,22 @@ p {
 }
 
 #section2 {
-  background-color: #38b3dd; /* Dodger Blue */
+  background: url(https://cdn.wallpapersafari.com/57/86/YyI7Rd.png);
   color: white;
 }
 
 #section3 {
-  background-color: #263ca1; /* Lime Green */
+  background:url(https://cdnb.artstation.com/p/assets/images/images/025/852/643/large/ricardo-monteiro-raze-fanart-vector-post-2.jpg?1587131806);
   color: white;
 }
 
 #section4 {
-  background-color: #10255c; /* Orange Red */
+  background:url(https://cdn.wallpapersafari.com/49/39/lKLMuT.png);
   color: white;
 }
 
 #section5 {
-  background-color: #131a2c; /* Gold */
+  background:url(https://wallpapercave.com/wp/wp7866395.png);
   color: rgb(255, 243, 243);
 }
 
@@ -122,8 +122,8 @@ p {
 }
 
 .donation-button:hover {
-  background-color: #FFC700;
-  color: #000;
+  background-color: #357edf;
+  color: #ffffff;
 }
 
 .menu-toggle{
